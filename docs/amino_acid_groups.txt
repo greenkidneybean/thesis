@@ -1,0 +1,36 @@
+# AA organization
+aa_list = ['H','K','R','D','E','C','M','N','Q','S','T','A','I','L','V','F','W','Y','G','P','*']
+
+# version 1
+aa_pos = ['H','K','R']
+aa_neg = ['D','E']
+aa_neutral = ['C','M','N','Q','S','T']
+aa_nonpolar = ['A','I','L','V']
+aa_aromatic = ['F','W','Y']
+aa_unique = ['G','P']
+aa_stop = ['*']
+full_list = [aa_pos,aa_neg,aa_neutral,aa_nonpolar,aa_aromatic,aa_unique,aa_stop]
+
+aa_categories = ['Positive Charge','Negative Charge','Polar-Neutral','Non-Polar','Aromatic','Unique','Stop']
+
+aa_map = {aa:cat for temp_list,cat in zip(full_list,aa_categories) for aa in temp_list }
+
+# version 2 tenthorey/malik 2020
+aliphatic = ['G','P','A','I','L','V']
+aromatic = ['F','W','Y']
+polar = ['M','C','S','T','N','Q','H']
+positive = ['K','R']
+negative = ['D','E']
+nonsense = ['*']
+full_list = [aliphatic,aromatic,polar,positive,negative,nonsense]
+aa_categories = ['Aliphatic','Aromatic','Polar','Positive Charge','Negative Charge','Stop']
+aa_map = {aa:cat for temp_list,cat in zip(full_list,aa_categories) for aa in temp_list }
+
+# v3 wikipedia
+positive = ['H','K','R']
+negative = ['D','E']
+polar_neutral = ['S','T','N','Q']
+hydrophobic = ['A','V','I','L','M','F','Y','W']
+nonsense = ['*']
+full_list = [positive,negative,polal_neutral,hydrophobic,nonsense]
+aa_categories = ['Positive Charge','Negative Charge','Polar Neutral','Hydrophobic','Stop']

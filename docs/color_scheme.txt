@@ -1,0 +1,7 @@
+# PKR-K3L Color Scheme
+
+PKR #6dc091
+K3L #786bac
+
+Improved variant #242AD9
+Impaired variant #F92321

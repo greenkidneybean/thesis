@@ -1,0 +1,9 @@
+LATEX for functional score equations
+
+https://latex2image.joeraut.com
+
+\omega = \frac{d_{N}}{d_{S}}
+
+FS_{PKR} = -\log_{2}(\frac{FC_{1}+FC_{2}+FC_{3}}{3})
+
+FS_{K3} = \log_{2}(\frac{FC_{1}+FC_{2}+FC_{3}}{3})
